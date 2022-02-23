@@ -10,7 +10,7 @@ $TargetFolder = 'D:\EXAMPLE\Folder3'
 #                         No Changes neccesary under this line                             #
 ############################################################################################
 
-$FileList = Get-ChildItem $SourceFolder -Name
+$FileList = Get-ChildItem $SourceFolder -Name -Directory
 
 $NewFile = @()
 
